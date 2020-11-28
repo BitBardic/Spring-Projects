@@ -2,6 +2,8 @@ package com.codewithnas.service;
 
 import com.codewithnas.entity.Release;
 
+import java.util.List;
+
 public interface ReleaseService {
-    Iterable<Release> listReleases();
+    List<Release> listReleases();
 }
